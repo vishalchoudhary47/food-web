@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body {
+	background-color: black;
+}
+
+#loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #3f51b6 url('images/loading.gif') no-repeat center;
+	z-index: 99999;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 55px;
+}
+
+#form {
+	border: 1px solid #242424;
+	padding: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 18px; 
+	color: white;
+}
+
+#firstname,#lastname,#areacode,#telnum,#emailid,#date,#time{
+	background-color: transparent;
+}
+
+#button,#button2 {
+	background-color: transparent;
+	border: 2px solid red;
+	color: grey;
+}
+
+
+/*Footer*/
+
+
+.panel-footer {
+margin-top: 30px;
+padding-top: 35px;
+padding-bottom: 30px;
+background-color: #222;
+border-top: 0;
+}
+
+.panel-footer div.row {
+margin-bottom: 35px;
+}
+
+#hours, #address {
+line-height: 2;
+}
+
+#hours > span, #address > span {
+font-size: 1.3em;
+}
+
+#address p {
+color: #557c3e;
+font-size: .8em;
+line-height: 1.8;
+}
+
+#testimonials {
+font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+margin-top: 25px;
+}
+
+#text {
+color: grey;
+}
+
+/*End of footer*/

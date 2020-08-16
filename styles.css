@@ -1,0 +1,164 @@
+*{
+margin: 0px;
+padding: 0px; 
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #3f51b6 url('images/loading.gif') no-repeat center;
+	z-index: 99999;
+}
+
+#navigation {
+	opacity: .8;
+	}
+.carousel-inner img {
+width: 100%;
+height: 100%;
+}
+
+.image {
+height: 260px;
+}
+
+.images {
+height: 210px;
+}
+.bottom-right {
+position: absolute;
+bottom: 15px;
+color: white;
+font-weight: 200%;
+}
+
+/*Footer*/
+.panel-footer {
+margin-top: 30px;
+padding-top: 35px;
+padding-bottom: 30px;
+background-color: #222;
+border-top: 0;
+}
+
+.panel-footer div.row {
+margin-bottom: 35px;
+}
+
+#hours, #address {
+line-height: 2;
+}
+
+#hours > span, #address > span {
+font-size: 1.3em;
+}
+
+#address p {
+color: #557c3e;
+font-size: .8em;
+line-height: 1.8;
+}
+
+#testimonials {
+font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+margin-top: 25px;
+}
+
+#text {
+color: grey;
+}
+
+/*End of footer*/
+/*app button*/
+
+.btn-store {
+color: #777777;
+min-width: 254px;
+padding: 12px 20px !important;
+border-color: #dddddd !important;
+}
+
+.btn-store:focus, 
+.btn-store:hover {
+color: #ffffff !important;
+background-color: #168eea;
+border-color: #168eea !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+display: block;
+text-align: left;
+line-height: 1;
+}
+
+.btn-store .btn-caption {
+font-size: 24px;
+}
+
+/*End of app button*/
+/*transition effect*/
+
+@media (min-width:768px) {
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box {
+height: 210px;
+width: 210px;
+position: relative;
+transition: all 0.4s;
+overflow: hidden;
+}
+.box img {
+width: 100%;
+height: 100%;
+}
+.box span{
+position: absolute;
+top: 0;
+left: 0;
+line-height: 250px;
+color: white;
+font-size: 2rem;
+font-weight: 700;
+margin-left: 50px;
+transform: translateX(500%);
+transition: all 0.4s;
+transition-delay: 0.2s;
+}
+.box:hover span{
+transform: translateX(0);
+}
+.box:hover {
+transform: scale(1.2);
+}
+}
+
+/*end transtion*/
+/*For mobile view*/
+
+@media (max-width: 767px) {
+#menu-tile span {
+position:absolute;
+bottom:0;
+right:auto;
+width: 100%;
+text-align: center;
+font-size: 1.6em;
+text-transform: uppercase;
+color: #fff;
+opacity: .8;
+}
+}
+
+
+
+
