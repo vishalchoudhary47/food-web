@@ -43,7 +43,7 @@ h1 {
 	color: white;
 }
 
-#firstname,#lastname,#areacode,#telnum,#emailid,#date,#time{
+#firstname,#number,#areacode,#telnum,#emailid,#date,#time{
 	background-color: transparent;
 }
 
@@ -73,9 +73,9 @@ margin-bottom: 35px;
 line-height: 2;
 }
 
-#hours > span, #address > span {
+/*#hours > span, #address > span {
 font-size: 1.3em;
-}
+}*/
 
 #address p {
 color: #557c3e;
