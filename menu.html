@@ -5,41 +5,263 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="menu-style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
 	<title>Food Website</title>
 </head>
 <body>
+		<div id="loading"></div>
+	<header class="mb-5">
+		<section>
 
-	<nav class="NAV">
-		<div class="logo">
-			The Nav
-		</div>
-		<ul class="nav-links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Menu</a></li>
-			<li><a href="#">LogoIn</a></li>
-			<li><a href="reservation.html">Reservation</a></li>
-		</ul>
-		<div class="bar">
-			<div class="line1"></div>
-			<div class="line2"></div>
-			<div class="line3"></div>
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="navigation">
+	<!--Brand Name-->
+			<a class="navbar-brand" href="index.html">Food-Web</a>
+	<!-- Toggler/collapsibe Button -->
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+ 		    <span class="navbar-toggler-icon"></span>
+ 			</button>
+<!-- Navbar links -->
+	  	<div class="collapse navbar-collapse justify-content-end " id="navbar">
+	  <ul class="navbar-nav ml-auto">
+	    <li class="nav-item">
+	      <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home</a>
+	    </li>
+	    <li class="nav-item active">
+	      <a class="nav-link" href="menu.html"><span class="fa fa-list"></span> Menu</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal"><span class="fa fa-sign-in"></span> Signup</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="reservation.html"><span class="fa fa-ticket"></span> Reservation</a>
+	    </li>
+	  </ul>
 		</div>
 	</nav>
-		<div class="container">
-		<img src="images/images (10).jpeg" class="img" style="width: 100%; height: 100vh;">
-		<div class="centered">
-			<span id="text">
-				<h1 id="h1">See our Menu</h1>
-			</span>
+		<!--End navigaton-->
+	</section>
+</header>
+
+
+
+<div class="container-fluid px-0 displayed ">
+	<div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (1).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
 		</div>
-		</div>	
-	
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (6).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (6).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (7).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (8).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (6).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (1).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (8).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
 
-		
-	
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (6).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (7).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (8).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+	  <div class="card m-5" style="width: 18rem;">
+		<img class="card-img-top" src="images/images (1).jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Checkout</a>
+		</div>
+	  </div>
+</div>
 
 
 
+
+
+
+
+
+
+
+
+
+   <!--register form in short-->
+      <section class="bg-dark">
+        <article>
+
+
+
+          <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sing up</h4>
+          <button type="button" class="close " data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+	        <div class="modal-body">
+	          <form action="/action_page.php">
+	  <div class="form-group">
+	    <label for="email">Email address:</label>
+	    <input type="email" class="form-control" placeholder="Enter email" id="email">
+	  </div>
+	  <div class="form-group">
+	    <label for="pwd">Password:</label>
+	    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+	  </div>
+	  <div class="form-group form-check">
+	    <label class="form-check-label">
+	      <input class="form-check-input" type="checkbox"> Remember me
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	 		</form>
+	      </div>
+	        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+        </article>
+      </section>
+      <!--register ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  	<!--Footer start-->
+	<footer class="panel-footer mt-1">
+		<div class="container">
+			<div class="row text-white">
+				<section id="hours" class="col-sm-4">
+					<span>Hours:</span><br>
+					Sun-Thurs: 11:15am - 10:00pm<br>
+					Fri: 11:15am - 2:30pm<br>
+					Saturday Closed<br>
+					<a href="tel:123-456-7890" id="text"><span class="fa fa-phone"></span>: +91 1234567890</a>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="address" class="col-sm-4">
+					<span>Address:</span><br>
+					7105 Reisterstown Road <br>
+					Baltimore, MD 21215
+					<p>*Delivery area with in 3-4 miles,with minimum order of $20 plus $3 charge for all delivers.</p>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="testimonials" class="col-sm-4">
+					<p>"The best Indian restaurtant I've been to! And that's saying alot, since I've been to many</p>
+					<p>"Amazing food! Greatservice! couldn't ask for more! I'll be back again and agian!"</p>
+					<h6><b>Social Links:</b></h6>
+				<div>
+					<a href="http://www.facebook.com/profile.php?id=" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+					<a href="http://twitter.com/" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+					<a href="http://youtube.com/" class="btn btn-social-icon btn-google"><i class="fa fa-youtube"></i></a>
+				</div>
+				</section>
+				
+			</div>
+				<div class="text-center text-white">&copy; copyright Food-Web 2020
+				</div>
+			</div>
+</footer>
+<!--Footer end-->
 
 
 
@@ -49,5 +271,10 @@
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="menu-js.js"></script>
+<script type="text/javascript">
+	$(window).on("load",function(){
+		$("#loading").fadeOut(2000);
+	});
+</script>
 </body>
 </html>

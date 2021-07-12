@@ -1,91 +1,74 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-/*Navbar Starts*/
-
-.NAV {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 10vh;
-  background-color: black;
-  opacity: .5;
-
-}
-.logo {
-  color: white;
-  letter-spacing: 3px;
-  font-size: 25px;
-  padding: 0px 25px 0px 25px; 
-
-}
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  width: 370px;
-  padding: 0px 15px 0px 15px;
-}
- li a{
-  color: white;
-  letter-spacing: 1px;
-  font-size: 18px;
-}
-.bar {
-  display: none;
-  cursor: pointer;
-}
-.bar div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px;
-}
-/*Nav BAr Ends*/
-
-.container {
-  
+body {
+	background-color: #4f5051 !important;
 }
 
-
-
-
-
-
-
-
-@media (max-width: 768px){
-  body {
-    overflow-x: hidden;
-    overflow-y: hidden;        
-
-  }
-  .nav-links {
-    position: absolute;
-    right: 0;
-    height: 90vh;
-    top: 10vh;
-    background-color: gray;
+#loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #3f51b6 url('images/loading.gif') no-repeat center;
+	z-index: 99999;
+}
+.displayed {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    width: 50%;
-    transform: translateX(100%); 
-    transition: .5s ease;
-  }
-  .nav-links li {
-    padding: 30px;
-  }
-  .bar {
-    display: block;
-    padding: 10px;
-  }
-  .bar-click {
-    transform: translateX(0);
-  }
-
+    justify-content: center;
 }
 
+element.style {
+    width: 18rem;
+}
+.m-5 {
+    margin: 3rem!important;
+}
+.card {
+    background-color: #4f5051 !important;
+}
+.card-body {
+    background-color: #4f5051;
+    color: wheat;
+}
+/*Footer*/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    }
+    
+    .panel-footer div.row {
+    margin-bottom: 35px;
+    }
+    
+    #hours, #address {
+    line-height: 2;
+    }
+    
+    #hours > span, #address > span {
+    font-size: 1.3em;
+    }
+    
+    #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+    }
+    
+    #testimonials {
+    font-style: italic;
+    }
+    
+    #testimonials p:nth-child(2) {
+    margin-top: 25px;
+    }
+    
+    #text {
+    color: grey;
+    }
