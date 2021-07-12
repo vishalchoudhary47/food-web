@@ -3,7 +3,7 @@ margin: 0px;
 padding: 0px; 
 font-family: 'Josefin Sans', sans-serif;
 }
-
+/* 
 #loading {
 	position: fixed;
 	width: 100%;
@@ -11,7 +11,7 @@ font-family: 'Josefin Sans', sans-serif;
 	background: #3f51b6 url('images/loading.gif') no-repeat center;
 	z-index: 99999;
 }
-
+ */
 #navigation {
 	opacity: .8;
 	}
